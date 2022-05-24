@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ES-es">
+    <head>
+        <meta charset="UTF-8">
+		<title>Laboratorio 1 CSS</title>
+		<link href="LABORATORIOSTYLE1.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+		<div class="fondo">
+			<table class="container">			
+				<tr>
+					<td>
+						<h1>Bienvenidos al Ejercicio Final del Curso</h1>
+
+						<h2>¿Lo conseguí? A ver.</h2>
+
+						<p>¿Qué pongo aquí? Brrr feliz navidad.</p>
+
+						<h3>Jijiji</h3>
+
+						<p>Hay que tener en cuenta las siguientes restricciones</p>	
+						
+						<ul class="add">
+							<li>Uno, las listas, no son párrafos, y por ello tienen el texto por defecto de la página, es decir, <span class="negrilla">Palatino Linotype</span>.</li>
+							<li>Además, están justificadas. Esto quiere decir que como el <span class="azul">padding</span> es superior al de los párrafos, todo aparecerá  perfectamente justificado. </li>
+							<li>Esta lista no numerada emplea una imagen suministrada, que es <span class="rojo">add.png</span></li>
+							<li>Para hacer lo anterior, hay que incluir la siguiente instrucción en una regla que afecta a esta lista: <span class="rojo">list-style-image : url("add.png");</span></li>
+							<li>ENTENDIDO Atte: Victoria.</li>
+						</ul>
+						<p> Respecto al fondo de la página también hay que tener en cuenta las siguientes consideraciones: </p>
+						<ul class="next">
+							<li>La imagen de fondo ocupa toda la pantalla.</li>
+							<li>La parte central (donde se encuentra este texto), tiene un margen superior del 5% e inferior del 0%. Además, como puede comprobarse, no está centrada. Ocupa el 65% del ancho total, siendo el espacio de la izquierda del 30% y el de la derecha del 5%. </li>
+							<li>Esta lista no numerada emplea una imagen suministrada, que es <span class="azul">next.png</span></li>
+							<li>Para hacer lo anterior, hay que incluir la siguiente instrucción en una regla que afecta a esta lista: <span class="azul"> list-style-image : url("next.png");</span></li>
+						</ul>
+					</td>
+				</tr>
+				<tr class="footer">
+					<td>
+						<h1 id="fraseCafe">Y si te gusta el café ... esta imagen seguro que es sugerente</h1>
+						<li>Lo que me he reído con ese comentario de arriba Atte: Victoria</li>
+						
+						<p>
+							<img class="fotoEstanteria" src="IMAGENESYCOSAS/cafe.jpg" alt="Foto de una estanteria de tazas de cafe" />
+						</p>
+						<h1>World Wide Web Consortium (W3C) es una comunidad internacional que desarrolla estándares que aseguran el crecimiento de la Web a largo plazo.</h1>
+						<a href="https://www.w3c.es">
+							<h1>Pulsa sobre este enlace e irás a su página principal</h1>
+						</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
