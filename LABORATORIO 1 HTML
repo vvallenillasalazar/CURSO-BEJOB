@@ -30,9 +30,9 @@
 						<p> Respecto al fondo de la página también hay que tener en cuenta las siguientes consideraciones: </p>
 						<ul class="next">
 							<li>La imagen de fondo ocupa toda la pantalla.</li>
-							<li>La parte central (donde se encuentra este texto), tiene un margen superior del 5% e inferior del 0%. Además, como puede comprobarse, no está centrada. Ocupa el 65% del ancho total, siendo el espacio de la izquierda del 30% y el de la derecha del 5%. </li>
-							<li>Esta lista no numerada emplea una imagen suministrada, que es <span class="azul">next.png</span></li>
-							<li>Para hacer lo anterior, hay que incluir la siguiente instrucción en una regla que afecta a esta lista: <span class="azul"> list-style-image : url("next.png");</span></li>
+							<li>YEP</li>
+							<li>AAA <span class="azul">next.png</span></li>
+							<li>Regla que afecta a esta lista: <span class="azul"> list-style-image : url("next.png");</span></li>
 						</ul>
 					</td>
 				</tr>
